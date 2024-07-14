@@ -1,0 +1,54 @@
+.App{
+  background-image: url("t1.jpg");
+  background-size: cover;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: black;
+}
+
+.display {
+  width: 100%;
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 2em;
+}
+
+.input {
+  color: #333;
+}
+
+.result {
+  color: #888;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #e9e9e9;
+}
